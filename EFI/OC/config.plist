@@ -1293,9 +1293,9 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<false/>
+			<true/>
 			<key>AllowSetDefault</key>
-			<false/>
+			<true/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1303,7 +1303,7 @@
 			<key>BootProtect</key>
 			<string>None</string>
 			<key>DmgLoading</key>
-			<string>Signed</string>
+			<string>Disabled</string>
 			<key>ExposeSensitiveData</key>
 			<integer>3</integer>
 			<key>HaltLevel</key>
