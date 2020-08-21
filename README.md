@@ -22,9 +22,9 @@ EFI:OC0.6.1  编译日期2020-08-04
 9. 无线网卡
 10. 隔空投送  
 
-#注意:同系列使用我的EFI请注意APCI下的补丁 文件里面的APCI 命名是否和你们的DSDT里面一样.
-具体SSDT是否通用请移步 小兵的仓库查看 https://github.com/daliansky/OC-little
-##例如:`SSDT-ALS0.aml` 仿冒环境光传感器补丁  
+# 注意:同系列使用我的EFI请注意APCI下的补丁 文件里面的APCI 命名是否和你们的DSDT里面一样.
+具体SSDT是否通用请移步 小兵的仓库查看 https://github.com/daliansky/OC-little  
+## 例如:`SSDT-ALS0.aml` 仿冒环境光传感器补丁  
 
 原始 `ACPI` 存在环境光传感器设备接口和不存在环境光传感器设备接口。首先在原始 `ACPI` 里面查找 `ACPI0008`，如果可以查到相关设备，一般是 `ALSD`，则说明存在环境光传感器设备接口，否则即为不存在环境光传感器设备接口。  
 
