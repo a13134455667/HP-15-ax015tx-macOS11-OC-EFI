@@ -1303,7 +1303,7 @@
 			<key>BootProtect</key>
 			<string>None</string>
 			<key>DmgLoading</key>
-			<string>Disabled</string>
+			<string>Signed</string>
 			<key>ExposeSensitiveData</key>
 			<integer>3</integer>
 			<key>HaltLevel</key>
@@ -1311,7 +1311,7 @@
 			<key>SecureBootModel</key>
 			<string>Default</string>
 			<key>ScanPolicy</key>
-			<integer>3870467</integer>
+			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
