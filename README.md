@@ -4,12 +4,12 @@
 | :----: | :---- |
 | CPU | I5 6300HQ |    
 |内存 | 8G*2 DDR4 |     
-|显卡| Intel HD Graphics 530 + NVIDIA GeForce GTX 960Mi |     
+|显卡| Intel HD Graphics 530 + NVIDIA GeForce GTX 960M |     
 |网卡| Realtek RTL8111H + BCM94352z |     
 |声卡| Realtek ALC295  |   
 ## 系统支持
-系统：macOS 11 B3
-EFI:OC0.6.1  编译日期2020-08-04
+系统：macOS 11 B9
+EFI:OC0.6.2  编译日期2020-09-12
 ### 正常功能：  
 1. 核心显卡
 2. FN按键
