@@ -1,5 +1,5 @@
 # HP-15-ax015tx-macOS11-OC6.0EFI
-暗影精灵2 macOS 11 B5 完美EFI
+暗影精灵2 macOS 11 B9完美EFI
 | 硬件| 型号|   
 | :----: | :---- |
 | CPU | I5 6300HQ |    
@@ -9,7 +9,7 @@
 |声卡| Realtek ALC295  |   
 ## 系统支持
 系统：macOS 11 B9
-EFI:OC0.6.2  编译日期2020-09-12
+EFI:OC0.6.2  编译日期2020-10-07
 ### 正常功能：  
 1. 核心显卡
 2. FN按键
@@ -31,3 +31,6 @@ EFI:OC0.6.2  编译日期2020-09-12
 我的原始`ACPI`并没有存在`ACPI0008` 所以使用的是`SSDT-ALS0.aml`    
 
 具体请进入 https://github.com/daliansky/OC-little/tree/master/02-%E4%BB%BF%E5%86%92%E8%AE%BE%E5%A4%87/02-4-%E4%BB%BF%E5%86%92%E7%8E%AF%E5%A2%83%E5%85%89%E4%BC%A0%E6%84%9F%E5%99%A8 查看     
+
+# 问题
+双系统 会概率自动进WIN10 重启一次就可以进入mac 11.目前已优化配置并更新OC到6.2正式版，目前尚未出现自动进入WIN10的情况。
