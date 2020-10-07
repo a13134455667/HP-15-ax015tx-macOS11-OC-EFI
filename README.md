@@ -1,4 +1,4 @@
-# HP-15-ax015tx-macOS11-OC6.0EFI
+# HP-15-ax015tx-macOS11-OC0.6.2EFI
 暗影精灵2 macOS 11 B9完美EFI
 | 硬件| 型号|   
 | :----: | :---- |
