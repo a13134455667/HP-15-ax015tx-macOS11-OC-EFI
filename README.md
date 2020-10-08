@@ -28,14 +28,14 @@ EFI:OC0.6.2
 10. 隔空投送  
 
 # 注意:同系列使用我的EFI请注意APCI下的补丁 文件里面的APCI 命名是否和你们的DSDT里面一样.
-具体SSDT是否通用请移步 小兵的仓库查看 https://github.com/daliansky/OC-little  
+具体SSDT是否通用请移步 小兵的仓库查看 [点击进入](https://github.com/daliansky/OC-little)  
 ## 例如:`SSDT-ALS0.aml` 仿冒环境光传感器补丁  
 
 原始 `ACPI` 存在环境光传感器设备接口和不存在环境光传感器设备接口。首先在原始 `ACPI` 里面查找 `ACPI0008`，如果可以查到相关设备，一般是 `ALSD`，则说明存在环境光传感器设备接口，否则即为不存在环境光传感器设备接口。  
 
 我的原始`ACPI`并没有存在`ACPI0008` 所以使用的是`SSDT-ALS0.aml`    
 
-具体请进入 https://github.com/daliansky/OC-little/tree/master/02-%E4%BB%BF%E5%86%92%E8%AE%BE%E5%A4%87/02-4-%E4%BB%BF%E5%86%92%E7%8E%AF%E5%A2%83%E5%85%89%E4%BC%A0%E6%84%9F%E5%99%A8 查看     
+具体请进入 [这里查看](https://github.com/daliansky/OC-little/tree/master/02-%E4%BB%BF%E5%86%92%E8%AE%BE%E5%A4%87/02-4-%E4%BB%BF%E5%86%92%E7%8E%AF%E5%A2%83%E5%85%89%E4%BC%A0%E6%84%9F%E5%99%A8)  
 
 # 问题
 1. 双系统 会概率自动进WIN10 重启一次就可以进入mac 11.目前已优化配置并更新OC到6.2正式版，目前尚未出现自动进入WIN10的情况。  
